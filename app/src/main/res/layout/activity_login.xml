@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/messenger512"
+                />
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/login_nameField"
+            style="@style/textFieldStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/login_portField"
+            style="@style/textFieldStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Port"
+            android:inputType="text" />
+        <EditText
+            style="@style/textFieldStyle"
+            android:id="@+id/login_passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <ProgressBar
+            android:id="@+id/login_progressbar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/logIn"
+            style="@style/textFieldStyle"
+            android:background="@drawable/layout_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            />
+        <Button
+            android:id="@+id/cancelLogin"
+            style="@style/textFieldStyle"
+            android:background="@drawable/layout_bg_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

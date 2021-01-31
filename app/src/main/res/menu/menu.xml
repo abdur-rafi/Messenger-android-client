@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Add contact"
+            android:icon="@drawable/ic_baseline_person_add_24"
+            android:id="@+id/addContact"
+            />
+        <item android:title="Create group Message"
+            android:icon="@drawable/ic_baseline_group_add_24"
+            android:id="@+id/newGroup"
+            />
+        <item android:title="Archived messages"
+            android:icon="@drawable/ic_baseline_archive_24"
+            android:id="@+id/archived_messages"
+            />
+        <item android:id="@+id/log_out"
+            android:icon="@drawable/logout50"
+            android:title="Log out"/>
+
+        <item android:title="Exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:id="@+id/exit"
+            />
+    </group>
+</menu>
